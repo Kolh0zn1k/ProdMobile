@@ -30,7 +30,7 @@ table{
 }
 
 #circle2{
-	right: 15%;
+	left: 15%;
 	-webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
@@ -48,6 +48,7 @@ table{
 }
 
 #rectwhite{
+	width: 100%;
 	border-radius: 15px;
 	background-color: #FFFFFF;
 	color: #002033;
@@ -56,7 +57,7 @@ table{
 
 .NameUser{
 	position: relative;
-	margin-top: 4%;
+	margin-top: 5%;
 	right: 7%;
 	color: #002033;
 }
@@ -70,17 +71,35 @@ table{
 
 .tochki{
 	margin-top: 40%;
-	margin-left: 100%;
+	margin-left: 80%;
 }
 
 .fontKril{
+	margin-left: 2%;
 	font-style: normal;
 	font-weight: 500;
 	color: #002033;
 }
 
 .fontzakaz{
+	margin-left: 2%;
 	font-style: normal;
 	font-weight: 600;
 	color: #002033;
+}
+
+#rectscreen{
+	background-image: url('C://Users/Maxim Sergeev/Desktop/Курсач/Prod-Mobile/img/zakazscreen.png');
+	border: 0px;
+}
+
+.blure{
+	backdrop-filter: blur(50px);
+}
+
+#butretwit{
+	border: 0px;
+	border-radius: 22px;
+	background: #F5F5F5;
+    color: #888C95;
 }
