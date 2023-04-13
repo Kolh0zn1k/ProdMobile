@@ -12,16 +12,19 @@
     <link rel = "stylesheet" href = "C://Users/Maxim Sergeev/Desktop/Курсач/Prod-Mobile/css/style_mainpage.css">
 </head>
 <body class="container-fluid ps-0 pe-0">
-    
-    <!-- style = "font-family: 'Inter', sans-serif;" -->
 
-    <nav class="navbar navbar-expand-X-Small navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><span class = "skid">ДелиFood</span></a>
-      </div>
+    <nav class="navbar bg-body-tertiary mt-3 mb-3 pt-0 pb-0 ms-4 me-4" style="background-color: #C5EE6D4D; border-radius: 10px;">
+        <div class="container-fluid pe-0 ps-0">
+            <a class="navbar-brand navtop1 pt-0 pb-0 pe-3" href="#">
+            <img class = "LogoRect" src="C://Users/Maxim Sergeev/Desktop/Курсач/Prod-Mobile/img/navico.svg" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+            <span class = "ms-3 me-0">ДелиFoody</span>
+            </a>
+            <div class="col navtop2">комьюнити дешёвой <br/>доставки еды</div>
+            <button class="btn btn-outline-success" id = "navtopbut" type="submit" onclick="document.location='C://Users/Maxim Sergeev/Desktop/Курсач/Prod-Mobile/pages/login.html'">Войти</button>
+        </div>
     </nav>
 
-    <div class="container">
+    <div class="container mt-3">
         <div class="row">
             <div class="col">
               <h2>Апрель     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
@@ -49,7 +52,7 @@
                 </tr>
                 <tr class = "text-center">
                   <td class="fw-bold fs-4">
-                    <div id="circle1">2</div>
+                    <button type="button" class="btn btn-success" id="circle1">2</button>
                   </td>
                   <td class = "fs-4">3</td>
                   <td class = "fs-4">4</td>
@@ -72,31 +75,30 @@
     </div>
 
     <div class = "container-fluid">
-        <button type="button" class="btn btn-primary btn-lg position-relative top-50 start-50 translate-middle mt-4 w-100" id = "but2">Выбери своё общежитие <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil mb-1" viewBox="0 0 16 16">
+        <button type="button" class="btn btn-primary btn-lg mb-3 w-100 pb-3 pt-3" id = "but2">Выбери своё общежитие <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil mb-1" viewBox="0 0 16 16">
         <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
         </svg></button>
     </div>
 
     <div class = "d-flex container-fluid pe-0 ps-0 mt-0" id = "rectwhite">
         <div class="container">
-            <div class="row">
-                <div class="col-2">
-                    <div id="circle2" class = "mt-3"></div>
+            <div class="row ms-0">
+                <div class="col-11 pb-2">
+                    <div id="circle2" class = "mt-3 ps-1">
+                        <h5 class = "NameUser ms-5">Ильяс Гимранов</h5>
+                        <p class = "LinkUser ms-5">@you01uoy</p>
+                    </div>
                 </div>
-                <div class="col-8">
-                    <h5 class = "NameUser">Ильяс Гимранов</h5>
-                    <p class = "LinkUser">@you01uoy</p>
-                </div>
-                <div class="col">
-                    <img class="tochki" src="C://Users/Maxim Sergeev/Desktop/Курсач/Prod-Mobile/img/3tochki.svg" alt="3tochki" width="5px">
+                <div class="col-1 d-flex justify-content-end">
+                    <img class="" src="C://Users/Maxim Sergeev/Desktop/Курсач/Prod-Mobile/img/3tochki.svg" alt="3tochki" width="5px">
                 </div>
             </div>
-            <div class="row mt-1">
+            <div class="row mt-2 ms-1">
                 <div class="col">
                     <h5 class = "fontKril">Хочу баскет из KFC, каждому по 6,5 крылышек</h5>
                 </div>
             </div>
-            <div class="row mt-1">
+            <div class="row mt-1 ms-1">
                 <div class="col">
                     <h5 class = "fontzakaz"><font color ="#59D183">699 ₽</font> за заказ + <font color ="#59D183">151 ₽</font> за доставку на <font color ="#59D183">4</font> человека = <font color ="#59D183">212,5 ₽</font> с каждого</h5>
                 </div>
@@ -112,11 +114,11 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-2">
+            <div class="row mt-3">
                 <div class="col">
                     <h5 class = "fontzakaz">в <font color ="#59D183">19:00</font> закажу</h5>
                 </div>
-                <div class="col-4 pb-3">
+                <div class="col-auto pb-3">
                     <button type="submit" id = "butretwit" class="btn btn-primary">
                         <img class = "pb-1" src = "C://Users/Maxim Sergeev/Desktop/Курсач/Prod-Mobile/img/retwit.svg" alt = "retwit">
                         <i class="icon-user icon-white"></i> Переслать
@@ -126,6 +128,34 @@
         </div>
     </div>
     
+    <div class = "fixed-bottom container-fluid" id = "rectnavfooter">
+        <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <div class = "row">
+                        <button type="submit" id = "buthome" class="btn btn-primary shadow-none">
+                            <img class = "mt-0 mb-0 pb-0 pt-0" src = "C://Users/Maxim Sergeev/Desktop/Курсач/Prod-Mobile/img/house 1.svg" alt = "home">
+                            <p class = "mt-0 mb-0 pb-0 pt-0">Главная</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div class = "row">
+                        <button type="submit" id = "buthome" class="btn btn-primary shadow-none">
+                            <img class = "mt-0 mb-0 pb-0 pt-0" src = "C://Users/Maxim Sergeev/Desktop/Курсач/Prod-Mobile/img/myorder.svg" alt = "myorder">
+                            <p class = "mt-0 mb-0 pb-0 pt-0">Мои ордера</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div class = "row">
+                        <button type="submit" id = "buthome" class="btn btn-primary shadow-none">
+                            <img class = "mt-0 mb-0 pb-0 pt-0" src = "C://Users/Maxim Sergeev/Desktop/Курсач/Prod-Mobile/img/profile.svg" alt = "profile">
+                            <p class = "mt-0 mb-0 pb-0 pt-0">Профиль</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>

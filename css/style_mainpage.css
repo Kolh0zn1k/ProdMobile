@@ -16,21 +16,19 @@ table{
 }
 
 #circle1 {
-	position: relative;
-	left: 5%;
-	padding-top: 12%;
-    width: 45px;
-    height: 45px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-    background: #59D183;
-    text-align: center;
-    align-content: center;
+	width: 45px;
+	height: 45px;
+	border-radius: 25px;
+	background: #C5EE6D;
+	border: 0px;
+	font-weight: 600;
+	font-size: 1em;
+	color: #002033;
+	line-height: 21px;
+	text-align: center;
 }
 
 #circle2{
-	left: 15%;
 	-webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
@@ -42,8 +40,10 @@ table{
 
 #but2{
 	border-radius: 11px;
-	background-color: #FFFFFF;
 	color: #002033;
+	font-style: normal;
+	font-weight: 500;
+	background-color: #FFFFFF;
 	border: 0px;
 }
 
@@ -56,33 +56,23 @@ table{
 }
 
 .NameUser{
-	position: relative;
-	margin-top: 5%;
-	right: 7%;
+	white-space: nowrap;
 	color: #002033;
 }
 
 .LinkUser{
-	margin-top: -3%;
-	position: relative;
-	right: 7%;
+	margin-top: -27%;
+	white-space: nowrap;
 	color: #646464;
 }
 
-.tochki{
-	margin-top: 40%;
-	margin-left: 80%;
-}
-
 .fontKril{
-	margin-left: 2%;
 	font-style: normal;
 	font-weight: 500;
 	color: #002033;
 }
 
 .fontzakaz{
-	margin-left: 2%;
 	font-style: normal;
 	font-weight: 600;
 	color: #002033;
@@ -94,7 +84,7 @@ table{
 }
 
 .blure{
-	backdrop-filter: blur(50px);
+	backdrop-filter: blur(55px);
 }
 
 #butretwit{
@@ -103,3 +93,60 @@ table{
 	background: #F5F5F5;
     color: #888C95;
 }
+
+#rectnavfooter{
+	width: 100%;
+	border-radius: 0px;
+	background: #FDFAF5;
+	color: #646464;
+	border: 0px;
+}
+
+#buthome{
+	border: 0px;
+	border-radius: 0px;
+	background: none;
+    color: #646464;
+}
+
+.navtop1{
+	background-color: #C5EE6D4D;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #002033;
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+}
+
+.navtop2{
+	margin-left: -10px;
+	line-height: 16px;
+	font-size: 14px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	color: #002033;
+}
+
+#navtopbut{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	border: 0px;
+    color: #002033;
+    background: none;
+	border-radius: 10px;
+	background: #C5EE6D;
+	line-height: 30px;
+}
+
+.LogoRect{
+	background: #C5EE6D;
+	border-radius: 10px;
+}
+
+a {text-decoration: none; color: #002033;}
+a:hover {text-decoration: none; color: #002033;}
