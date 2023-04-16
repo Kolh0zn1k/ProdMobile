@@ -1,0 +1,161 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(206, 204, 204);
+    width: 100%;
+}
+
+
+.header_section {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.titleorder {
+    position: absolute;
+    left: 35px;
+}
+
+.btn_header {
+    background-color: rgb(206, 204, 204);
+    border-style: none;
+    color: gray;
+}
+
+section {
+    position: relative;
+}
+
+.text1 {
+    border-style: none;
+    padding: 15px;
+    font-size: 18px;
+    display: flex;
+    width: 100%;
+    text-align: left
+}
+
+.line1 {
+    width: 92%;
+    margin-left: 15px;
+}
+
+
+.btn btn-secondary dropdown-toggle {
+    background: white;
+    color: #ffffff;
+}
+
+
+.mb-3 {
+    width: 100%;
+    padding: 15px;
+    border-color: black;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.mb-4 {
+    width: 100%;
+    padding: 15px;
+    height: 75px;
+    /*     position: absolute;
+    top: 280px;  */
+}
+
+#formGroupExampleInput {
+    border-color: black;
+}
+
+#formGroupExampleInput1 {
+    border-color: black;
+
+}
+
+#dropdown1 {
+    color: #ffffff;
+    width: 200px;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    padding-top: 0px;
+
+}
+
+#btn1 {
+    border-style: none;
+}
+
+#btn2 {
+    border-style: none;
+}
+
+#dropdown2 {
+    margin-left: 8px;
+}
+
+#uploud-btn {
+    padding: 5px;
+    margin-left: 15px;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: gray;
+    border-radius: 10px;
+    width: 260px;
+
+}
+
+.submitbtn {
+    padding-left: 150px;
+    margin-top: 21px;
+    padding-right: 15px;
+    position: absolute;
+    right: 0;
+}
+
+.img_camera {
+    position: relative;
+    right: 13px;
+    bottom: 1px;
+
+}
+
+#submitbtn {
+    background-color: rgb(195, 255, 199);
+    border-color: rgb(0, 208, 48);
+    border-radius: 10px;
+    width: 160px;
+    height: 37px;
+
+}
+
+
+/* @media(min-width: 850px) {
+    .text1 {
+        border-style: none;
+        padding: 15px;
+        font-size: 18px;
+        display: flex;
+        width: 100%;
+        text-align: left
+    }
+
+    .line1 {
+        width: 100%;
+        margin-left: 15px;
+    }
+
+
+    .submitbtn {
+        padding-left: 201px;
+        margin-top: 21px;
+        padding-right: 15px;
+
+    }
+
+
+
+
+} */
