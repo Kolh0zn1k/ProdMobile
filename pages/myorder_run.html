@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>myorder_run</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "../css/style_myorder_run.css">
+</head>
+<body class="container-fluid ps-0 pe-0">
+
+    <nav class="navbar bg-body-tertiary mt-3 mb-3 pt-0 pb-0 ms-4 me-4" style="background-color: #C5EE6D4D; border-radius: 10px;">
+        <div class="container-fluid pe-0 ps-0">
+            <a class="navbar-brand navtop1 pt-0 pb-0 pe-3" href="#">
+            <img class = "LogoRect" src="../img/navico.svg" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+            <span class = "ms-3 me-0">ДелиFoody</span>
+            </a>
+            <div class="col navtop3 d-flex justify-content-end">Амир<br/>Вурдиханов</div>
+            <button class="btn btn-outline-success" id = "navtopbut" type="submit" onclick="document.location='../pages/login.html'"><img src="../img/profile.svg" alt="profile" width="" height="" class="d-inline-block align-text-top"></button>
+        </div>
+    </nav>
+
+    <div class="container mt-3 mb-3 pb-2" id = "rectforadv">
+        <div class="container">
+            <div class="row ms-0">
+                <div class = "col podskazka mt-3">Подсказка</div>
+                <div class = "col closetext mt-3 d-flex justify-content-end"><img class="me-1 mb-1" src="../img/krest.svg" alt="krest" width="15px">Закрыть</div>
+            </div>
+            <div class="row ms-4 mt-2 fonttext">
+                1. Найди еду которую хочешь
+            </div>
+            <div class="row ms-4 fonttext">
+                2. Создай ордер
+            </div>
+            <div class="row ms-4 fonttext">
+                3. Жди пока люди напишут тебе в соцсети
+            </div>
+            <div class="row ms-4 mb-2 fonttext">
+                4. Заказывай, делись, получай выгоду и приятного аппетита)
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-2" id = "rectwhite">
+        <div class="container pt-2 pb-2 ps-1">
+            <div class="row ms-0">
+                <button type="button" class="btn btn-primary btn-lg w-100 pt-3 pb-3 d-flex justify-content-center" id = "but3"><img class="me-3" src="../img/plus.svg" alt="plus" width="14px"><span class = "inbut1">Создать новый ордер</span></button>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="container mt-1">
+        <div class="row ms-0">
+            <div class = "col myordera mt-3">Мои ордера:</div>
+            <div class = "col closetext mt-3 d-flex justify-content-end"><button type="button" class="btn btn-primary btn-lg d-flex justify-content-center" id = "but4">1 ордер</button></div>
+        </div>
+    </div>
+
+    <div class="container pb-3" id = "ocolorectwhite">
+        <div class="row ms-0">
+            <div class = "col mt-3 d-flex justify-content-end"><button type="button" class="btn btn-primary btn-lg w-100 d-flex justify-content-center" id = "but_orderzapoln">Ордер заполнен</button></div>
+            <div class = "col mt-3 d-flex justify-content-end"><button type="button" class="btn btn-primary btn-lg w-50 d-flex justify-content-center shadow-none" id = "but_izm">Изменить</button></div>
+            
+        </div>
+    </div>
+    
+
+    <div class = "d-flex container-fluid pe-0 ps-0 mt-0" id = "rectwhite">
+        <div class="container">
+            <div class="row ms-0">
+                <div class="col-11 pb-2">
+                    <div id="circle2" class = "mt-3 ps-1">
+                        <h5 class = "NameUser ms-5">Ильяс Гимранов</h5>
+                        <p class = "LinkUser ms-5">@you01uoy</p>
+                    </div>
+                </div>
+                <div class="col-1 d-flex justify-content-end">
+                    <img class="" src="../img/3tochki.svg" alt="3tochki" width="5px">
+                </div>
+            </div>
+            <div class="row mt-2 ms-1">
+                <div class="col">
+                    <h5 class = "fontKril">Хочу баскет из KFC, каждому по 6,5 крылышек</h5>
+                </div>
+            </div>
+            <div class="row mt-1 ms-1">
+                <div class="col">
+                    <h5 class = "fontzakaz"><font color ="#59D183">699 ₽</font> за заказ + <font color ="#59D183">151 ₽</font> за доставку на <font color ="#59D183">4</font> человека = <font color ="#59D183">212,5 ₽</font> с каждого</h5>
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class = "d-flex container-fluid ms-0 me-0 pe-0 ps-0" id = "rectscreen">
+                    <div class="container blure">
+                        <div class="row">
+                            <div class="col">
+                                <img src="../img/zakazscreen.png" class="img-fluid position-relative top-50 start-50 translate-middle" alt="screeen">
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 pb-5">
+                <div class="col">
+                    <h5 class = "fontzakaz">в <font color ="#59D183">19:00</font> закажу</h5>
+                </div>
+                <div class="col-auto pb-5">
+                    <button type="submit" id = "butretwit" class="btn btn-primary">
+                        <img class = "pb-1" src = "../img/retwit.svg" alt = "retwit">
+                        <i class="icon-user icon-white"></i> Переслать
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class = "fixed-bottom container-fluid" id = "rectnavfooter">
+        <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <div class = "row">
+                        <button type="submit" id = "buthome" class="btn btn-primary shadow-none">
+                            <img class = "mt-0 mb-0 pb-0 pt-0" src = "../img/house 1.svg" alt = "home">
+                            <p class = "mt-0 mb-0 pb-0 pt-0">Главная</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div class = "row">
+                        <button type="submit" id = "buthome" class="btn btn-primary shadow-none">
+                            <img class = "mt-0 mb-0 pb-0 pt-0" src = "../img/myorder.svg" alt = "myorder">
+                            <p class = "mt-0 mb-0 pb-0 pt-0">Мои ордера</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div class = "row">
+                        <button type="submit" id = "buthome" class="btn btn-primary shadow-none">
+                            <img class = "mt-0 mb-0 pb-0 pt-0" src = "../img/profile.svg" alt = "profile">
+                            <p class = "mt-0 mb-0 pb-0 pt-0">Профиль</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
