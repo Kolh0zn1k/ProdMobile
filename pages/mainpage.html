@@ -11,34 +11,34 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel = "stylesheet" href = "../css/style_mainpage.css">
 </head>
-<body class="container-fluid ps-0 pe-0">
-
-    <nav class="navbar bg-body-tertiary mt-3 mb-3 pt-0 pb-0 ms-4 me-4" style="background-color: #C5EE6D4D; border-radius: 10px;">
-        <div class="container-fluid pe-0 ps-0">
-            <a class="navbar-brand navtop1 pt-0 pb-0 pe-3" href="#">
-            <img class = "LogoRect" src="../img/navico.svg" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
-            <span class = "ms-3 me-0">ДелиFoody</span>
-            </a>
-            <div class="col navtop2">комьюнити дешёвой <br/>доставки еды</div>
-            <button class="btn btn-outline-success" id = "navtopbut" type="submit" onclick="document.location='../pages/login.html'">Войти</button>
-        </div>
-    </nav>
+<body>
 
     <div class="container mt-3">
-        <div class="row">
-            <div class="col">
-              <h2>Апрель     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
-              <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
-              <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-              </svg></h2>
-              
+        <div class="row flex-nowrap">
+            <div class="col-2">
+                <button type="button" class="btn btn-success ms-1" id="pop-up-but1"><img class="" src="../img/tochkipopup.svg" alt="tochkipopup" width=""></button>
             </div>
-            <div class="col-auto">
-              <h4>Выбери дату</h4>
+            <div class="col d-flex justify-content-center">
+                <button type="button" class="btn btn-success ms-2" id="pop-up-but2">Выбрать своё общежитие<img class="ms-1" src="../img/galkaobsh.svg" alt="galkaobsh" width=""></button>
+            </div>
+            <div class="col-auto d-flex justify-content-end pe-1">
+                <button type="button" class="btn btn-success " id="pop-up-but3"><img class="" src="../img/avanav.svg" alt="avanav" width="37px"></button>
             </div>
         </div>
     </div>
-    <div class = "container-fluid">
+
+    <div class="row ms-3 me-3">
+        <div class="col ps-0">
+          <h5 class = "">Апрель<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3 ms-2" viewBox="0 0 16 16">
+          <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+          <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+          </svg></h5>
+        </div>
+        <div class="col-auto pe-0">
+          <h5 class = "">Выбери дату</h5>
+        </div>
+    </div>
+    <div class="container">
         <table class="table table-sm table-borderless align-middle">
             <tbody>
                 <tr class = "text-center">
@@ -74,11 +74,8 @@
         </table>
     </div>
 
-    <div class = "container-fluid">
-        <button type="button" class="btn btn-primary btn-lg mb-3 w-100 pb-3 pt-3" id = "but2">Выбери своё общежитие <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil mb-1" viewBox="0 0 16 16">
-        <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
-        </svg></button>
-    </div>
+
+    
 
     <div class = "d-flex container-fluid pe-0 ps-0 mt-0" id = "rectwhite">
         <div class="container">
@@ -114,12 +111,12 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-3">
-                <div class="col">
-                    <h5 class = "fontzakaz">в <font color ="#59D183">19:00</font> закажу</h5>
+            <div class="row m-3">
+                <div class="col " style="background-color: red;">
+                    <h5 class = "fontzakaz position-relative top-50 start-50 translate-middle">в <font color ="#59D183">19:00</font> закажу</h5>
                 </div>
-                <div class="col-auto pb-3">
-                    <button type="submit" id = "butretwit" class="btn btn-primary">
+                <div class="col-auto pb-3" style="background-color: green;">
+                    <button type="submit" id = "butretwit" class="btn btn-primary ">
                         <img class = "pb-1" src = "../img/retwit.svg" alt = "retwit">
                         <i class="icon-user icon-white"></i> Переслать
                     </button>
@@ -128,34 +125,6 @@
         </div>
     </div>
     
-    <div class = "fixed-bottom container-fluid" id = "rectnavfooter">
-        <div class="row">
-                <div class="col d-flex justify-content-center">
-                    <div class = "row">
-                        <button type="submit" id = "buthome" class="btn btn-primary shadow-none">
-                            <img class = "mt-0 mb-0 pb-0 pt-0" src = "../img/house 1.svg" alt = "home">
-                            <p class = "mt-0 mb-0 pb-0 pt-0">Главная</p>
-                        </button>
-                    </div>
-                </div>
-                <div class="col d-flex justify-content-center">
-                    <div class = "row">
-                        <button type="submit" id = "buthome" class="btn btn-primary shadow-none">
-                            <img class = "mt-0 mb-0 pb-0 pt-0" src = "../img/myorder.svg" alt = "myorder">
-                            <p class = "mt-0 mb-0 pb-0 pt-0">Мои ордера</p>
-                        </button>
-                    </div>
-                </div>
-                <div class="col d-flex justify-content-center">
-                    <div class = "row">
-                        <button type="submit" id = "buthome" class="btn btn-primary shadow-none">
-                            <img class = "mt-0 mb-0 pb-0 pt-0" src = "../img/profile.svg" alt = "profile">
-                            <p class = "mt-0 mb-0 pb-0 pt-0">Профиль</p>
-                        </button>
-                    </div>
-                </div>
-            </div>
-    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
